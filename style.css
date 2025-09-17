@@ -104,3 +104,12 @@ section h2{
   .container{ padding:28px 16px; }
 }
 
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #c8a2c8; /* lilac border */
+  margin: 20px auto;
+  display: block;
+}
