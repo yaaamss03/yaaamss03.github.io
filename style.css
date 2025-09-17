@@ -105,11 +105,19 @@ section h2{
 }
 
 .profile-pic {
-  width: 200px;
-  height: 200px;
+  width: 150px;       /* smaller size */
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #c8a2c8; /* lilac border */
   margin: 20px auto;
   display: block;
+  animation: float 3s ease-in-out infinite; /* add animation */
+}
+
+/* floating animation like Anjali's */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
 }
